@@ -1,4 +1,4 @@
-#PGBACKUP TOOL
+# PGBACKUP TOOL
 
 Remote or local backup automation script with remote upload option for AWS S3 repositories.
 
