@@ -38,14 +38,14 @@ How to install
 
 Pass in a full database URL, the storage driver, and destination.
 
-####S3 Example w/ bucket name:
+#### S3 Example w/ bucket name:
 
 $ pgbackup --driver s3 Your_S3_Bucket_name postgres://database_name:1234@server_ip:80/sample
 
 Example
 `$ pgbackup --driver s3 robsonmessias1 postgres://db_rob_test:1234@3.250.212.103:80/sample`
 
-####Local Example w/ local path:
+#### Local Example w/ local path:
 
 ` $ pgbackup --driver local ./local-dump.sql postgres://db_rob_test:1234@3.250.12.200:80/sample`
 
@@ -64,14 +64,14 @@ Usage
 
 Pass in a full database URL, the storage driver, and destination.
 
-####S3 Example w/ bucket name:
+#### S3 Example w/ bucket name:
 
 $ pgbackup --driver s3 Your_S3_Bucket_name postgres://database_name:1234@server_ip:80/sample
 
 Example
 `$ pgbackup --driver s3 robsonmessias1 postgres://db_rob_test:1234@3.250.212.103:80/sample`
 
-####Local Example w/ local path:
+#### Local Example w/ local path:
 
 ` $ pgbackup --driver local ./local-dump.sql postgres://db_rob_test:1234@3.250.12.200:80/sample`
 
